@@ -1,6 +1,3 @@
-# @Author  : Peizhao Li
-# @Contact : peizhaoli05@gmail.com
-
 import os
 import pandas as pd
 import numpy as np
