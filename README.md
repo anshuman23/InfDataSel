@@ -54,3 +54,4 @@ typing
 - Since the paper has multiple experiments, each has its own individual code files. There is no interdependence.
 - Current datasets give desirable functionality with height reduced regular decision tree regressors. If you wish to use hierarchical shrinkage, please refer to the ```imodels``` python package, it is simple to replace the sklearn tree with these.
 - Any remaining plotting code will be added later, all the above experiments generate data used for plotting.
+- The file ```acs_data_generator.py``` is custom code based on the ```folktables``` package and used to generate the distribution shift datasets-- it is provided here for reference.
