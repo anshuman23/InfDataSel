@@ -1,0 +1,18 @@
+{
+    "train_path": "./data/bank/train.csv",
+    "test_path": "./data/bank/test.csv",
+    "categorical_feat": "sex,outcome",
+    "target_feat": "outcome",
+    "sensitive_feat": "sex",
+    "label_mapping": {
+        "outcome": {
+            "Y": 1.0,
+            "N": 0.0
+        },
+        "sex": {
+            "M": 1.0,
+            "F": 0.0
+        }
+    },
+    "l2_reg": 1.1622
+}

@@ -1,0 +1,20 @@
+{
+    "train_path": "./data/toy/train.csv",
+    "test_path": "./data/toy/test.csv",
+    "column_names": "FEATURE1,FEATURE2,SEX,TARGET",
+    "categorical_feat": "SEX,TARGET",
+    "na_values": "?",
+    "target_feat": "TARGET",
+    "sensitive_feat": "SEX",
+    "label_mapping": {
+        "SEX": {
+            "Female": 0.0,
+            "Male": 1.0
+        },
+        "TARGET": {
+            "N": 0.0,
+            "Y": 1.0
+        }
+    },
+    "l2_reg": 0.01
+}

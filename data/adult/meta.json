@@ -1,0 +1,21 @@
+{
+    "train_path": "./data/adult/train.csv",
+    "test_path": "./data/adult/test.csv",
+    "column_names": "age,workclass,fnlwgt,education,eduction-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,income",
+    "categorical_feat": "workclass,education,marital-status,occupation,relationship,race,sex,native-country,income",
+    "drop_feat": "fnlwgt",
+    "na_values": "?",
+    "target_feat": "income",
+    "sensitive_feat": "sex",
+    "label_mapping": {
+        "income": {
+            ">50K": 1.0,
+            "<=50K": 0.0
+        },
+        "sex": {
+            "Male": 1.0,
+            "Female": 0.0
+        }
+    },
+    "l2_reg": 2.2622
+}

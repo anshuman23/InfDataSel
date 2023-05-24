@@ -1,0 +1,18 @@
+{
+    "train_path": "./data/nraa_attack_compas/train_clean.csv",
+    "test_path": "./data/nraa_attack_compas/test.csv",
+    "categorical_feat": "advantage,outcome",
+    "target_feat": "outcome",
+    "sensitive_feat": "advantage",
+    "label_mapping": {
+        "outcome": {
+            "Y": 1.0,
+            "N": 0.0
+        },
+        "advantage": {
+            "A": 1.0,
+            "D": 0.0
+        }
+    },
+    "l2_reg": 0.09
+}

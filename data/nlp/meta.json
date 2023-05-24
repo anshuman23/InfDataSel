@@ -1,0 +1,18 @@
+{
+    "train_path": "./data/nlp/train.csv",
+    "test_path": "./data/nlp/test.csv",
+    "categorical_feat": "ethnicity,outcome",
+    "target_feat": "outcome",
+    "sensitive_feat": "ethnicity",
+    "label_mapping": {
+        "outcome": {
+            "Y": 1.0,
+            "N": 0.0
+        },
+        "ethnicity": {
+            "O": 1.0,
+            "B": 0.0
+        }
+    },
+    "l2_reg": 5.1622
+}
