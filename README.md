@@ -51,6 +51,7 @@ typing
 - Three trees will be generated for utility, fairness, and robustness.
 
 #### Notes
+- For fairness experiments, it is important to note that excessive trimming can actually lead to unfairness in the opposite direction. For keeping the code generic, we do not stop removing samples when fairness values (DP or EOP) start going below 0. However, for results, we consider all values below 0 to be 0 as it is trivial to put a threshold on the value. If you would like, it is easy to amend the code by stopping influence trimming when fairness value on the validation set < 0. 
 - Since the paper has multiple experiments, each has its own individual code files. There is no interdependence.
 - Current datasets give desirable functionality with height reduced regular decision tree regressors. If you wish to use hierarchical shrinkage, please refer to the ```imodels``` python package, it is simple to replace the sklearn tree with these.
 - The file ```acs_data_generator.py``` is custom code based on the ```folktables``` package and used to generate the distribution shift datasets-- it is provided here for reference.
