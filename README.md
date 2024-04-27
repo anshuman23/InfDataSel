@@ -1,4 +1,4 @@
-## Code for paper: “What Data Benefits My Classifier?” Enhancing Model Performance and Interpretability through Influence-Based Data Selection
+## Code for paper: “What Data Benefits My Classifier?” Enhancing Model Performance and Interpretability through Influence-Based Data Selection (ICLR 2024 ORAL)
 
 ### Requirements
 ```
